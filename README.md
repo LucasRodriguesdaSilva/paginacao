@@ -32,5 +32,5 @@ paginacao.start(total_registros);
 - [ ] Documentar classe.
 
 
-Licença
+## Licença
 Este projeto é distribuído sob a licença [MIT](/LICENSE). Consulte o arquivo LICENSE para obter mais detalhes.
