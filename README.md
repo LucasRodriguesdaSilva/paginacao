@@ -30,3 +30,7 @@ paginacao.start(total_registros);
 - [ ] Adicionar outros temas
 - [ ] Adicionar opção de quantidade máxima de itens por página.
 - [ ] Documentar classe.
+
+
+Licença
+Este projeto é distribuído sob a licença [MIT](/LICENSE). Consulte o arquivo LICENSE para obter mais detalhes.
