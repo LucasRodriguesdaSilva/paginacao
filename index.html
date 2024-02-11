@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col s12">
+            <div class="card hoverable">
+                <div class="card-content">
+                    <div class="row">
+                        <span class="card-title"><i class="material-icons">assignment</i> Lista 1 </span>
+                        <div class="table-info col s12 m12">
+                            <div class="table-info col s12 m2 right" id="total_registros_1">
+                                <b>Total:</b> 0
+                            </div>
+                        </div>
+                        <div class="col s12 table-overflow">
+                            <table id="tabela_1" class="striped">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nome</th>
+                                        <th>Sobrenome</th>
+                                        <th>Lista</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody_tabela_1"></tbody>
+                            </table>
+                            <div id="paginacao_1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="card hoverable">
+                <div class="card-content">
+                    <div class="row">
+                        <span class="card-title"><i class="material-icons">assignment</i> Lista 2 </span>
+                        <div class="table-info col s12 m12">
+                            <div class="table-info col s12 m2 right" id="total_registros_2">
+                                <b>Total:</b> 0
+                            </div>
+                        </div>
+                        <div class="col s12 table-overflow">
+                            <table id="tabela_2" class="striped">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nome</th>
+                                        <th>Sobrenome</th>
+                                        <th>Lista</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody_tabela_2"></tbody>
+                            </table>
+                            <div id="paginacao_2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./public/js/paginacao.js"></script>
+    <script src="./public/js/app.js"></script>
+</body>
+
+</html>
